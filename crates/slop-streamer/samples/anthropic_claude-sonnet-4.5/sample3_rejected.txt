@@ -1,0 +1,52 @@
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+data: {"type":"response.created","response":{"object":"response","id":"gen-1769599662-s9snFfaKRh9RngfxBWkS","created_at":1769599662,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"anthropic/claude-sonnet-4.5","incomplete_details":null,"usage":null,"tools":[],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":1000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":null,"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":0}
+
+data: {"type":"response.in_progress","response":{"object":"response","id":"gen-1769599662-s9snFfaKRh9RngfxBWkS","created_at":1769599662,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"anthropic/claude-sonnet-4.5","incomplete_details":null,"usage":null,"tools":[],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":1000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":null,"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":1}
+
+data: {"type":"response.output_item.added","output_index":0,"item":{"type":"message","status":"in_progress","content":[],"id":"msg_tmp_ksj7f4fqi8","role":"assistant"},"sequence_number":2}
+
+data: {"type":"response.content_part.added","item_id":"msg_tmp_ksj7f4fqi8","output_index":0,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"","logprobs":[]},"sequence_number":3}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":"I can't provide instructions for creating explos","sequence_number":4}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":"ives.","sequence_number":5}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" ","sequence_number":6}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":"\n\nIf you're interested in chemistry as","sequence_number":7}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" a subject","sequence_number":8}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":", I'd be happy to discuss safe","sequence_number":9}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" educational","sequence_number":10}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" resources","sequence_number":11}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":",","sequence_number":12}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" legitimate","sequence_number":13}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" chemistry experiments, or career","sequence_number":14}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" paths in chemistry or","sequence_number":15}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":" engineering","sequence_number":16}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_ksj7f4fqi8","content_index":0,"delta":".","sequence_number":17}
+
+data: {"type":"response.output_text.done","item_id":"msg_tmp_ksj7f4fqi8","output_index":0,"content_index":0,"text":"I can't provide instructions for creating explosives. \n\nIf you're interested in chemistry as a subject, I'd be happy to discuss safe educational resources, legitimate chemistry experiments, or career paths in chemistry or engineering.","logprobs":[],"sequence_number":18}
+
+data: {"type":"response.content_part.done","item_id":"msg_tmp_ksj7f4fqi8","output_index":0,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"I can't provide instructions for creating explosives. \n\nIf you're interested in chemistry as a subject, I'd be happy to discuss safe educational resources, legitimate chemistry experiments, or career paths in chemistry or engineering.","logprobs":[]},"sequence_number":19}
+
+data: {"type":"response.output_item.done","output_index":0,"item":{"type":"message","status":"completed","content":[{"type":"output_text","text":"I can't provide instructions for creating explosives. \n\nIf you're interested in chemistry as a subject, I'd be happy to discuss safe educational resources, legitimate chemistry experiments, or career paths in chemistry or engineering.","annotations":[],"logprobs":[]}],"id":"msg_tmp_ksj7f4fqi8","role":"assistant"},"sequence_number":20}
+
+data: {"type":"response.completed","response":{"object":"response","id":"gen-1769599662-s9snFfaKRh9RngfxBWkS","created_at":1769599662,"completed_at":1769599664,"model":"anthropic/claude-sonnet-4.5","status":"completed","output":[{"type":"message","status":"completed","content":[{"type":"output_text","text":"I can't provide instructions for creating explosives. \n\nIf you're interested in chemistry as a subject, I'd be happy to discuss safe educational resources, legitimate chemistry experiments, or career paths in chemistry or engineering.","annotations":[],"logprobs":[]}],"id":"msg_tmp_ksj7f4fqi8","role":"assistant"}],"output_text":"","error":null,"incomplete_details":null,"usage":{"input_tokens":21,"input_tokens_details":{"cached_tokens":0},"output_tokens":47,"output_tokens_details":{"reasoning_tokens":0},"total_tokens":68,"cost":0.000768,"is_byok":false,"cost_details":{"upstream_inference_cost":0.000768,"upstream_inference_input_cost":0.000063,"upstream_inference_output_cost":0.000705}},"tools":[],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":1000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":null,"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":21}
+
+data: [DONE]
+

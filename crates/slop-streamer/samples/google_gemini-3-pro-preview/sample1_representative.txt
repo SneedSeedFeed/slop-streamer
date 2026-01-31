@@ -1,0 +1,82 @@
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+data: {"type":"response.created","response":{"object":"response","id":"gen-1769599531-ocGgOR5YoPakrAE98KDg","created_at":1769599531,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"google/gemini-3-pro-preview","incomplete_details":null,"usage":null,"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":0}
+
+data: {"type":"response.in_progress","response":{"object":"response","id":"gen-1769599531-ocGgOR5YoPakrAE98KDg","created_at":1769599531,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"google/gemini-3-pro-preview","incomplete_details":null,"usage":null,"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":1}
+
+data: {"type":"response.output_item.added","output_index":0,"item":{"type":"reasoning","id":"rs_tmp_cm9x32hmvga","summary":[]},"sequence_number":2}
+
+data: {"type":"response.content_part.added","item_id":"rs_tmp_cm9x32hmvga","output_index":0,"content_index":0,"part":{"type":"reasoning_text","text":""},"sequence_number":3}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_cm9x32hmvga","content_index":0,"delta":"**Calculating Temperature Difference**\n\nI've got the weather data for Tokyo and Paris. Now, I'm focusing on calculating the temperature difference. The user provided specific hypothetical temperatures: 72°F in Tokyo and 60°F in Paris. I'm crunching the numbers to determine the precise difference, which seems straightforward.\n\n\n","sequence_number":4}
+
+data: {"type":"response.output_item.added","output_index":1,"item":{"type":"message","status":"in_progress","content":[],"id":"msg_tmp_efsmzj4g4cs","role":"assistant"},"sequence_number":5}
+
+data: {"type":"response.content_part.added","item_id":"msg_tmp_efsmzj4g4cs","output_index":1,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"","logprobs":[]},"sequence_number":6}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_efsmzj4g4cs","content_index":0,"delta":"I will first get the current weather for both Tokyo and Paris.","sequence_number":7}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_efsmzj4g4cs","content_index":0,"delta":" Then, I will convert the specific hypothetical temperatures you provided (72°F for Tokyo and 15°C for Paris","sequence_number":8}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_efsmzj4g4cs","content_index":0,"delta":") into a common unit to calculate the difference.\n\n","sequence_number":9}
+
+data: {"type":"response.output_item.added","output_index":2,"item":{"type":"function_call","call_id":"tool_get_current_weather_AL6oK7yJSQWUaPEL17Lx","name":"get_current_weather","arguments":"","id":"tool_get_current_weather_AL6oK7yJSQWUaPEL17Lx","status":"in_progress"},"sequence_number":10}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"tool_get_current_weather_AL6oK7yJSQWUaPEL17Lx","output_index":2,"delta":"{\"location\":\"Tokyo, Japan\"}","sequence_number":11}
+
+data: {"type":"response.output_item.added","output_index":3,"item":{"type":"function_call","call_id":"tool_get_current_weather_DIPz8m1plZ4zrRnZkHMO","name":"get_current_weather","arguments":"","id":"tool_get_current_weather_DIPz8m1plZ4zrRnZkHMO","status":"in_progress"},"sequence_number":12}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"tool_get_current_weather_DIPz8m1plZ4zrRnZkHMO","output_index":3,"delta":"{\"location\":\"Paris, France\"}","sequence_number":13}
+
+data: {"type":"response.output_item.added","output_index":4,"item":{"type":"function_call","call_id":"tool_convert_temperature_U2jqEoBlIn4Wbnz8Hg6Q","name":"convert_temperature","arguments":"","id":"tool_convert_temperature_U2jqEoBlIn4Wbnz8Hg6Q","status":"in_progress"},"sequence_number":14}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"tool_convert_temperature_U2jqEoBlIn4Wbnz8Hg6Q","output_index":4,"delta":"{\"to_unit\":\"celsius\",\"from_unit\":\"fahrenheit\",\"value\":72}","sequence_number":15}
+
+data: {"type":"response.output_text.done","item_id":"msg_tmp_efsmzj4g4cs","output_index":1,"content_index":0,"text":"I will first get the current weather for both Tokyo and Paris. Then, I will convert the specific hypothetical temperatures you provided (72°F for Tokyo and 15°C for Paris) into a common unit to calculate the difference.\n\n","logprobs":[],"sequence_number":16}
+
+data: {"type":"response.content_part.done","item_id":"msg_tmp_efsmzj4g4cs","output_index":1,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"I will first get the current weather for both Tokyo and Paris. Then, I will convert the specific hypothetical temperatures you provided (72°F for Tokyo and 15°C for Paris) into a common unit to calculate the difference.\n\n","logprobs":[]},"sequence_number":17}
+
+data: {"type":"response.output_item.done","output_index":1,"item":{"type":"message","status":"completed","content":[{"type":"output_text","text":"I will first get the current weather for both Tokyo and Paris. Then, I will convert the specific hypothetical temperatures you provided (72°F for Tokyo and 15°C for Paris) into a common unit to calculate the difference.\n\n","annotations":[],"logprobs":[]}],"id":"msg_tmp_efsmzj4g4cs","role":"assistant"},"sequence_number":18}
+
+data: {"type":"response.function_call_arguments.done","item_id":"tool_get_current_weather_AL6oK7yJSQWUaPEL17Lx","output_index":2,"name":"get_current_weather","arguments":"{\"location\":\"Tokyo, Japan\"}","sequence_number":19}
+
+data: {"type":"response.output_item.done","output_index":2,"item":{"type":"function_call","call_id":"tool_get_current_weather_AL6oK7yJSQWUaPEL17Lx","name":"get_current_weather","arguments":"{\"location\":\"Tokyo, Japan\"}","status":"completed"},"sequence_number":20}
+
+data: {"type":"response.function_call_arguments.done","item_id":"tool_get_current_weather_DIPz8m1plZ4zrRnZkHMO","output_index":3,"name":"get_current_weather","arguments":"{\"location\":\"Paris, France\"}","sequence_number":21}
+
+data: {"type":"response.output_item.done","output_index":3,"item":{"type":"function_call","call_id":"tool_get_current_weather_DIPz8m1plZ4zrRnZkHMO","name":"get_current_weather","arguments":"{\"location\":\"Paris, France\"}","status":"completed"},"sequence_number":22}
+
+data: {"type":"response.function_call_arguments.done","item_id":"tool_convert_temperature_U2jqEoBlIn4Wbnz8Hg6Q","output_index":4,"name":"convert_temperature","arguments":"{\"to_unit\":\"celsius\",\"from_unit\":\"fahrenheit\",\"value\":72}","sequence_number":23}
+
+data: {"type":"response.output_item.done","output_index":4,"item":{"type":"function_call","call_id":"tool_convert_temperature_U2jqEoBlIn4Wbnz8Hg6Q","name":"convert_temperature","arguments":"{\"to_unit\":\"celsius\",\"from_unit\":\"fahrenheit\",\"value\":72}","status":"completed"},"sequence_number":24}
+
+data: {"type":"response.reasoning_text.done","output_index":0,"item_id":"rs_tmp_cm9x32hmvga","content_index":0,"text":"**Calculating Temperature Difference**\n\nI've got the weather data for Tokyo and Paris. Now, I'm focusing on calculating the temperature difference. The user provided specific hypothetical temperatures: 72°F in Tokyo and 60°F in Paris. I'm crunching the numbers to determine the precise difference, which seems straightforward.\n\n\n","sequence_number":25}
+
+data: {"type":"response.content_part.done","item_id":"rs_tmp_cm9x32hmvga","output_index":0,"content_index":0,"part":{"type":"reasoning_text","text":"**Calculating Temperature Difference**\n\nI've got the weather data for Tokyo and Paris. Now, I'm focusing on calculating the temperature difference. The user provided specific hypothetical temperatures: 72°F in Tokyo and 60°F in Paris. I'm crunching the numbers to determine the precise difference, which seems straightforward.\n\n\n"},"sequence_number":26}
+
+data: {"type":"response.output_item.done","output_index":0,"item":{"type":"reasoning","id":"rs_tmp_cm9x32hmvga","summary":[],"content":[{"type":"reasoning_text","text":"**Calculating Temperature Difference**\n\nI've got the weather data for Tokyo and Paris. Now, I'm focusing on calculating the temperature difference. The user provided specific hypothetical temperatures: 72°F in Tokyo and 60°F in Paris. I'm crunching the numbers to determine the precise difference, which seems straightforward.\n\n\n"}]},"sequence_number":27}
+
+data: {"type":"response.completed","response":{"object":"response","id":"gen-1769599531-ocGgOR5YoPakrAE98KDg","created_at":1769599531,"completed_at":1769599537,"model":"google/gemini-3-pro-preview","status":"completed","output":[{"type":"reasoning","id":"tool_get_current_weather_AL6oK7yJSQWUaPEL17Lx","summary":[],"encrypted_content":"EuIECt8EAXLI2nyvXVgjkH5yuznlyf1nOy/7nBlOQVcStewjjIk491FYwN3ma4uTZ4HlCF+H3pAPwQzjvbLXfd/kmg5Y0U2ypD7jcuIj/OgrNpi+wt934Gpn92n8nCJMxfFOV+zmIdoruL6BRADXhJhEJxETiINEg3KyRkoKh8pjIMu2/UAacc4p2iY968EuOOj9TEp6D1qKlOvLkVlE5PIoNs4NjVxfxGIhtFJt52rIn1RUnx5TCYbeoqnw9j6EPRcxkLEtTHfUpeqA99q6BsVJTJhN2rIQsenZK7IbcLGFdsYyf1e69jCJE5qP3CWQjVyt1zLpKOXR2tWAZcNBZH+oPcwP53qZ290XOWgOeC1lHf/apH29oqI2e3zdAeAzsWhA6uB0ZBHKP6027tuzmfIaYniZD4ENERdQtmS3H/8rF2MBkhvy/O/XSwpG0pLhcHHXnEWzQS7MCF6RTvA6mGZFaXnz4E3EEaqjXYgIDJrMHBu+YksqsCaVi2nmGQ1i9rPD5c/vk8OaUh/k/UBjLn9uGf6mOEd9SMoTar/iFIYqcJxfFYeurpo10DXneeRV9/s56/O6EzQg6VZnNXKw0nGouKeq1JuxMnTsNqQP6NTX9j/khK73vn0ScV3iPWF7lSovNL3/oRW58psaBo1zbFl0D3rzQ/WaxC7serG8Y58UMtK1n0tLAS2m5l6oQV6LtBPtuFrBBCziB5pvwsl+q4+v8/NO/LXZdS+LFa8dcE2/9rRj1v5cIiM0bYAy539OKpYAlBD7xdSRzlOnuxZa1+CgE2OgZiEzXzok/mVYSu2t6NDQfg==","content":[{"type":"reasoning_text","text":"**Calculating Temperature Difference**\n\nI've got the weather data for Tokyo and Paris. Now, I'm focusing on calculating the temperature difference. The user provided specific hypothetical temperatures: 72°F in Tokyo and 60°F in Paris. I'm crunching the numbers to determine the precise difference, which seems straightforward.\n\n\n"}],"format":"google-gemini-v1"},{"type":"message","status":"completed","content":[{"type":"output_text","text":"I will first get the current weather for both Tokyo and Paris. Then, I will convert the specific hypothetical temperatures you provided (72°F for Tokyo and 15°C for Paris) into a common unit to calculate the difference.\n\n","annotations":[],"logprobs":[]}],"id":"msg_tmp_efsmzj4g4cs","role":"assistant"},{"type":"function_call","call_id":"tool_get_current_weather_AL6oK7yJSQWUaPEL17Lx","name":"get_current_weather","arguments":"{\"location\":\"Tokyo, Japan\"}","status":"completed"},{"type":"function_call","call_id":"tool_get_current_weather_DIPz8m1plZ4zrRnZkHMO","name":"get_current_weather","arguments":"{\"location\":\"Paris, France\"}","status":"completed"},{"type":"function_call","call_id":"tool_convert_temperature_U2jqEoBlIn4Wbnz8Hg6Q","name":"convert_temperature","arguments":"{\"to_unit\":\"celsius\",\"from_unit\":\"fahrenheit\",\"value\":72}","status":"completed"}],"output_text":"","error":null,"incomplete_details":null,"usage":{"input_tokens":320,"input_tokens_details":{"cached_tokens":0},"output_tokens":227,"output_tokens_details":{"reasoning_tokens":104},"total_tokens":547,"cost":0.003364,"is_byok":false,"cost_details":{"upstream_inference_cost":0.003364,"upstream_inference_input_cost":0.00064,"upstream_inference_output_cost":0.002724}},"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":28}
+
+data: [DONE]
+

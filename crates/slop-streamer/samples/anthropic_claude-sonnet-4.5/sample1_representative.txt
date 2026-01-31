@@ -1,0 +1,270 @@
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+data: {"type":"response.created","response":{"object":"response","id":"gen-1769599662-Ky6ku5IASc8e3D8Sy0B9","created_at":1769599662,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"anthropic/claude-sonnet-4.5","incomplete_details":null,"usage":null,"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":0}
+
+data: {"type":"response.in_progress","response":{"object":"response","id":"gen-1769599662-Ky6ku5IASc8e3D8Sy0B9","created_at":1769599662,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"anthropic/claude-sonnet-4.5","incomplete_details":null,"usage":null,"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":1}
+
+data: {"type":"response.output_item.added","output_index":0,"item":{"type":"reasoning","id":"rs_tmp_1yap6xatp93","summary":[]},"sequence_number":2}
+
+data: {"type":"response.content_part.added","item_id":"rs_tmp_1yap6xatp93","output_index":0,"content_index":0,"part":{"type":"reasoning_text","text":""},"sequence_number":3}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"The user is asking me to:","sequence_number":4}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"\n1. Get weather data for Tokyo and","sequence_number":5}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" Paris\n2. Calculate the temperature difference","sequence_number":6}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" between Tokyo","sequence_number":7}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" (","sequence_number":8}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"72°F) and Paris (15","sequence_number":9}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"°C)\n3. Provide","sequence_number":10}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" a summary","sequence_number":11}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"\n\nLet me think","sequence_number":12}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" through this step-by-step:","sequence_number":13}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"\n\nStep","sequence_number":14}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" 1: Get the","sequence_number":15}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" current","sequence_number":16}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" weather for","sequence_number":17}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" both","sequence_number":18}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" cities\n- I","sequence_number":19}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"'ll","sequence_number":20}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" need","sequence_number":21}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" to call","sequence_number":22}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" get_current_weather for Tokyo,","sequence_number":23}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" Japan\n- I","sequence_number":24}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"'ll need to call get_current_","sequence_number":25}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"weather for Paris, France\n\nStep ","sequence_number":26}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"2: Calculate temperature difference\n- Tokyo","sequence_number":27}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" is given","sequence_number":28}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" as 72°F\n- Paris","sequence_number":29}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" is given as 15°C","sequence_number":30}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"\n- To","sequence_number":31}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" calculate the difference","sequence_number":32}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":", I need to convert one","sequence_number":33}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" to","sequence_number":34}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" match","sequence_number":35}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" the other's","sequence_number":36}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" unit","sequence_number":37}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"\n- I","sequence_number":38}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" can","sequence_number":39}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" either","sequence_number":40}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" convert","sequence_number":41}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" ","sequence_number":42}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"72°F to Celsius or","sequence_number":43}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" 15°C to Fahrenheit","sequence_number":44}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"\n- Then","sequence_number":45}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" calculate the difference using","sequence_number":46}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" the calculate","sequence_number":47}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" function\n\nStep 3: Provide","sequence_number":48}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" a summary","sequence_number":49}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"\n\nLet me start by getting the weather data","sequence_number":50}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" for both cities,","sequence_number":51}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" then I","sequence_number":52}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":"'ll do","sequence_number":53}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" the temperature","sequence_number":54}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" conversion","sequence_number":55}
+
+data: {"type":"response.reasoning_text.delta","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"delta":" and calculation.","sequence_number":56}
+
+data: {"type":"response.output_item.added","output_index":1,"item":{"type":"message","status":"in_progress","content":[],"id":"msg_tmp_bbenocyi82","role":"assistant"},"sequence_number":57}
+
+data: {"type":"response.content_part.added","item_id":"msg_tmp_bbenocyi82","output_index":1,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"","logprobs":[]},"sequence_number":58}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"I'll help you with","sequence_number":59}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" this step-by-step. Let","sequence_number":60}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" me break","sequence_number":61}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" down the approach","sequence_number":62}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":":","sequence_number":63}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"\n\n**Step 1:**","sequence_number":64}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" Get current","sequence_number":65}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" weather for","sequence_number":66}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" both Tokyo","sequence_number":67}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" and Paris","sequence_number":68}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"\n**","sequence_number":69}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"Step 2:** Convert temperatures to the","sequence_number":70}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" same unit (I","sequence_number":71}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"'ll convert","sequence_number":72}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" Paris","sequence_number":73}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"'s","sequence_number":74}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" 15°C to Fahrenheit","sequence_number":75}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" to","sequence_number":76}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" match Tokyo's 72°F)","sequence_number":77}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"\n**Step 3:** Calculate the","sequence_number":78}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" temperature difference","sequence_number":79}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":"\n**Step 4:** Provide a","sequence_number":80}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" comprehensive","sequence_number":81}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" summary\n\nLet me start by","sequence_number":82}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" gathering","sequence_number":83}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":" the data","sequence_number":84}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":1,"item_id":"msg_tmp_bbenocyi82","content_index":0,"delta":":","sequence_number":85}
+
+data: {"type":"response.output_item.added","output_index":2,"item":{"type":"function_call","call_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","name":"get_current_weather","arguments":"","id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","status":"in_progress"},"sequence_number":86}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"{\"l","sequence_number":87}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"oc","sequence_number":88}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"ation","sequence_number":89}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"\": \"Tok","sequence_number":90}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"yo, J","sequence_number":91}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"apan\"","sequence_number":92}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":", \"unit\": \"","sequence_number":93}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"fahrenh","sequence_number":94}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"delta":"eit\"}","sequence_number":95}
+
+data: {"type":"response.output_item.added","output_index":3,"item":{"type":"function_call","call_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","name":"get_current_weather","arguments":"","id":"toolu_01BY39szzuXjUEQaYwvG7RSL","status":"in_progress"},"sequence_number":96}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":"{\"loc","sequence_number":97}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":"ation\": \"","sequence_number":98}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":"Paris, ","sequence_number":99}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":"France\"","sequence_number":100}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":", \"un","sequence_number":101}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":"it","sequence_number":102}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":"\": \"celsiu","sequence_number":103}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"delta":"s\"}","sequence_number":104}
+
+data: {"type":"response.output_item.added","output_index":4,"item":{"type":"function_call","call_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","name":"convert_temperature","arguments":"","id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","status":"in_progress"},"sequence_number":105}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"{\"value\": ","sequence_number":106}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"15","sequence_number":107}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":", ","sequence_number":108}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"\"fro","sequence_number":109}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"m_","sequence_number":110}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"un","sequence_number":111}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"it\": \"celsi","sequence_number":112}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"us\"","sequence_number":113}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":", \"","sequence_number":114}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"to_uni","sequence_number":115}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"t\": \"fahren","sequence_number":116}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"delta":"heit\"}","sequence_number":117}
+
+data: {"type":"response.output_text.done","item_id":"msg_tmp_bbenocyi82","output_index":1,"content_index":0,"text":"I'll help you with this step-by-step. Let me break down the approach:\n\n**Step 1:** Get current weather for both Tokyo and Paris\n**Step 2:** Convert temperatures to the same unit (I'll convert Paris's 15°C to Fahrenheit to match Tokyo's 72°F)\n**Step 3:** Calculate the temperature difference\n**Step 4:** Provide a comprehensive summary\n\nLet me start by gathering the data:","logprobs":[],"sequence_number":118}
+
+data: {"type":"response.content_part.done","item_id":"msg_tmp_bbenocyi82","output_index":1,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"I'll help you with this step-by-step. Let me break down the approach:\n\n**Step 1:** Get current weather for both Tokyo and Paris\n**Step 2:** Convert temperatures to the same unit (I'll convert Paris's 15°C to Fahrenheit to match Tokyo's 72°F)\n**Step 3:** Calculate the temperature difference\n**Step 4:** Provide a comprehensive summary\n\nLet me start by gathering the data:","logprobs":[]},"sequence_number":119}
+
+data: {"type":"response.output_item.done","output_index":1,"item":{"type":"message","status":"completed","content":[{"type":"output_text","text":"I'll help you with this step-by-step. Let me break down the approach:\n\n**Step 1:** Get current weather for both Tokyo and Paris\n**Step 2:** Convert temperatures to the same unit (I'll convert Paris's 15°C to Fahrenheit to match Tokyo's 72°F)\n**Step 3:** Calculate the temperature difference\n**Step 4:** Provide a comprehensive summary\n\nLet me start by gathering the data:","annotations":[],"logprobs":[]}],"id":"msg_tmp_bbenocyi82","role":"assistant"},"sequence_number":120}
+
+data: {"type":"response.function_call_arguments.done","item_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","output_index":2,"name":"get_current_weather","arguments":"{\"location\": \"Tokyo, Japan\", \"unit\": \"fahrenheit\"}","sequence_number":121}
+
+data: {"type":"response.output_item.done","output_index":2,"item":{"type":"function_call","call_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","name":"get_current_weather","arguments":"{\"location\": \"Tokyo, Japan\", \"unit\": \"fahrenheit\"}","status":"completed"},"sequence_number":122}
+
+data: {"type":"response.function_call_arguments.done","item_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","output_index":3,"name":"get_current_weather","arguments":"{\"location\": \"Paris, France\", \"unit\": \"celsius\"}","sequence_number":123}
+
+data: {"type":"response.output_item.done","output_index":3,"item":{"type":"function_call","call_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","name":"get_current_weather","arguments":"{\"location\": \"Paris, France\", \"unit\": \"celsius\"}","status":"completed"},"sequence_number":124}
+
+data: {"type":"response.function_call_arguments.done","item_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","output_index":4,"name":"convert_temperature","arguments":"{\"value\": 15, \"from_unit\": \"celsius\", \"to_unit\": \"fahrenheit\"}","sequence_number":125}
+
+data: {"type":"response.output_item.done","output_index":4,"item":{"type":"function_call","call_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","name":"convert_temperature","arguments":"{\"value\": 15, \"from_unit\": \"celsius\", \"to_unit\": \"fahrenheit\"}","status":"completed"},"sequence_number":126}
+
+data: {"type":"response.reasoning_text.done","output_index":0,"item_id":"rs_tmp_1yap6xatp93","content_index":0,"text":"The user is asking me to:\n1. Get weather data for Tokyo and Paris\n2. Calculate the temperature difference between Tokyo (72°F) and Paris (15°C)\n3. Provide a summary\n\nLet me think through this step-by-step:\n\nStep 1: Get the current weather for both cities\n- I'll need to call get_current_weather for Tokyo, Japan\n- I'll need to call get_current_weather for Paris, France\n\nStep 2: Calculate temperature difference\n- Tokyo is given as 72°F\n- Paris is given as 15°C\n- To calculate the difference, I need to convert one to match the other's unit\n- I can either convert 72°F to Celsius or 15°C to Fahrenheit\n- Then calculate the difference using the calculate function\n\nStep 3: Provide a summary\n\nLet me start by getting the weather data for both cities, then I'll do the temperature conversion and calculation.","sequence_number":127}
+
+data: {"type":"response.content_part.done","item_id":"rs_tmp_1yap6xatp93","output_index":0,"content_index":0,"part":{"type":"reasoning_text","text":"The user is asking me to:\n1. Get weather data for Tokyo and Paris\n2. Calculate the temperature difference between Tokyo (72°F) and Paris (15°C)\n3. Provide a summary\n\nLet me think through this step-by-step:\n\nStep 1: Get the current weather for both cities\n- I'll need to call get_current_weather for Tokyo, Japan\n- I'll need to call get_current_weather for Paris, France\n\nStep 2: Calculate temperature difference\n- Tokyo is given as 72°F\n- Paris is given as 15°C\n- To calculate the difference, I need to convert one to match the other's unit\n- I can either convert 72°F to Celsius or 15°C to Fahrenheit\n- Then calculate the difference using the calculate function\n\nStep 3: Provide a summary\n\nLet me start by getting the weather data for both cities, then I'll do the temperature conversion and calculation."},"sequence_number":128}
+
+data: {"type":"response.output_item.done","output_index":0,"item":{"type":"reasoning","id":"rs_tmp_1yap6xatp93","summary":[],"content":[{"type":"reasoning_text","text":"The user is asking me to:\n1. Get weather data for Tokyo and Paris\n2. Calculate the temperature difference between Tokyo (72°F) and Paris (15°C)\n3. Provide a summary\n\nLet me think through this step-by-step:\n\nStep 1: Get the current weather for both cities\n- I'll need to call get_current_weather for Tokyo, Japan\n- I'll need to call get_current_weather for Paris, France\n\nStep 2: Calculate temperature difference\n- Tokyo is given as 72°F\n- Paris is given as 15°C\n- To calculate the difference, I need to convert one to match the other's unit\n- I can either convert 72°F to Celsius or 15°C to Fahrenheit\n- Then calculate the difference using the calculate function\n\nStep 3: Provide a summary\n\nLet me start by getting the weather data for both cities, then I'll do the temperature conversion and calculation."}]},"sequence_number":129}
+
+data: {"type":"response.completed","response":{"object":"response","id":"gen-1769599662-Ky6ku5IASc8e3D8Sy0B9","created_at":1769599662,"completed_at":1769599670,"model":"anthropic/claude-sonnet-4.5","status":"completed","output":[{"type":"reasoning","id":"rs_tmp_1yap6xatp93","summary":[],"content":[{"type":"reasoning_text","text":"The user is asking me to:\n1. Get weather data for Tokyo and Paris\n2. Calculate the temperature difference between Tokyo (72°F) and Paris (15°C)\n3. Provide a summary\n\nLet me think through this step-by-step:\n\nStep 1: Get the current weather for both cities\n- I'll need to call get_current_weather for Tokyo, Japan\n- I'll need to call get_current_weather for Paris, France\n\nStep 2: Calculate temperature difference\n- Tokyo is given as 72°F\n- Paris is given as 15°C\n- To calculate the difference, I need to convert one to match the other's unit\n- I can either convert 72°F to Celsius or 15°C to Fahrenheit\n- Then calculate the difference using the calculate function\n\nStep 3: Provide a summary\n\nLet me start by getting the weather data for both cities, then I'll do the temperature conversion and calculation."}],"signature":"EsoHCkYICxgCKkBYv9ghxq6O08aEYXLf9iNEMYuclGPavO9DUvYN3a7j3YWWqc2D+5kciaYy+nF+6CkbN6HVd1o7VXivw2AYxiRIEgwdO1X5Few34mIk/TQaDL5gUoKjf3GiYJNzzSIwoqb2zv50QV7foW32fiZ9/XXS2Ngd+YL6P4RHn6SXBnk+kRbh0BwimEGdlnqpVugkKrEGZUTf47Wh4gK8ni6jowsENVjIBAiJoqd1bQp9whwobz0l/t1GUhxzfLBOJXSYJR9mnWVSeR3aLaYkHcaO2/6YjHZCfxc/zNUrBRJMeFmEq0uT8Y71HS0zX7HqAi6qqNZQTK7Q6kdYcruk/4yC4WqxbTyrHK3cchXFTBhgIDuo7OqJGVja+I7nctDwuId/g5B7EsmZ+8COnxzm1mmv39IX+L6pu2Vk5/wg7bOctqzyspU9eiL0YkLkD7nMIj+So9bxjQ9IOP3CC89AZxl2DHOEd7xcnnbipH60UpYFi5cY07/wrf1U32hVncNs8nZU06JtZHIqQB58zcJrp2vwt6CLK/v1YMsFY25+ZdDsv6//FYUORrvjjlJ3E3DVQIS9LkKec77u8PsE5GnMx4+YpUr93UOs2vtE+HuZ/5Ib69bmfx8CFEwO5WKdZwkbZxpaiI3Q3SA9jO9ENSsjSQT8fVrEuqUj/DY/G1XFbqs0fxCrtjQkCvN0vxVI0Mpm3DjP6G9lWpjDWnc3bpsmF2D1OcEbR2hwznjKXaxY7IVwIjQBPcCtmtLweneuPDQYN1GqMLmksjZQfe4ryo4u4D+erVbMBlb9NS3QdqF2WpomZiZGJFGi4A/igmnmO8UqO02h6u4zVgAbKhbdomAPlT/y6EZpej8pc5Uk6oEaStsrF+WuLm4t4ETaGNQYq6BCuXr6kV1Y26i+kdsC9hJ9krL/HSjrrueNAhppCkc2E7GiVkgNWzZzHFna+Z92/VyhVwiFd4Tbt8omVOsGkzApWwXUdT+oRbSLflfiURbWHXqID4HvLpnqzXG620If8FRVgRha8396Jqak4qtdmpjUDDj7JmD/9UINL8cKzmPWiRiyTgBt+hGanaSHt3SozsAV+ZRWr/W2zWzwIHVLxe0i6efaWJ0dXwgpGHPiZOaJYrpBApsgkvOc1sD3tN2n2wjGwxlvs/jPHo4QVYFccEEGqkgTpbLloMeS86uIQHGcgFJyvsIFWYlBm0aiyOAMT4/tl2CYRGgpwTiRAwqRbBHK6bXicdOV2v46Bv26CFZ90jqab/PxBf8jx4DqicmLCa3KibBGn4qF+BgB","format":"anthropic-claude-v1"},{"type":"message","status":"completed","content":[{"type":"output_text","text":"I'll help you with this step-by-step. Let me break down the approach:\n\n**Step 1:** Get current weather for both Tokyo and Paris\n**Step 2:** Convert temperatures to the same unit (I'll convert Paris's 15°C to Fahrenheit to match Tokyo's 72°F)\n**Step 3:** Calculate the temperature difference\n**Step 4:** Provide a comprehensive summary\n\nLet me start by gathering the data:","annotations":[],"logprobs":[]}],"id":"msg_tmp_bbenocyi82","role":"assistant"},{"type":"function_call","call_id":"toolu_019FoQXmcpRJ7zZW3wARR7BD","name":"get_current_weather","arguments":"{\"location\": \"Tokyo, Japan\", \"unit\": \"fahrenheit\"}","status":"completed"},{"type":"function_call","call_id":"toolu_01BY39szzuXjUEQaYwvG7RSL","name":"get_current_weather","arguments":"{\"location\": \"Paris, France\", \"unit\": \"celsius\"}","status":"completed"},{"type":"function_call","call_id":"toolu_01Kf6TFZKQxwktCBPGUApdS3","name":"convert_temperature","arguments":"{\"value\": 15, \"from_unit\": \"celsius\", \"to_unit\": \"fahrenheit\"}","status":"completed"}],"output_text":"","error":null,"incomplete_details":null,"usage":{"input_tokens":881,"input_tokens_details":{"cached_tokens":0},"output_tokens":525,"output_tokens_details":{"reasoning_tokens":221},"total_tokens":1406,"cost":0.010518,"is_byok":false,"cost_details":{"upstream_inference_cost":0.010518,"upstream_inference_input_cost":0.002643,"upstream_inference_output_cost":0.007875}},"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":130}
+
+data: [DONE]
+

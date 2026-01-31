@@ -1,0 +1,22 @@
+[package]
+name = "slop-streamer"
+version = "0.0.1"
+edition = "2024"
+license.workspace = true
+
+[dependencies]
+bytes = { version = "1.11.0", features = ["serde"] }
+bytes-utils = { version = "0.1.4", features = ["serde"] }
+erased-serde = "0.4.9"
+futures = "0.3.31"
+pin-project-lite = "0.2.16"
+schemars = "1.2.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+sseer = "0.1.7"
+tokio = { version = "1.49.0", features = ["full"] }
+url = "2.5.8"
+
+
+[features]
+miri = []

@@ -1,0 +1,330 @@
+data: {"type":"response.created","response":{"object":"response","id":"gen-1769599723-TonbLCOA2FJQZ6QlEP2C","created_at":1769599723,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"openai/gpt-5.2","incomplete_details":null,"usage":null,"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":0}
+
+data: {"type":"response.in_progress","response":{"object":"response","id":"gen-1769599723-TonbLCOA2FJQZ6QlEP2C","created_at":1769599723,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"openai/gpt-5.2","incomplete_details":null,"usage":null,"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":1}
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+data: {"type":"response.output_item.added","output_index":0,"item":{"type":"reasoning","id":"rs_tmp_crwxlzb7ryr","summary":[]},"sequence_number":2}
+
+data: {"type":"response.reasoning_summary_part.added","output_index":0,"item_id":"rs_tmp_crwxlzb7ryr","summary_index":0,"part":{"type":"summary_text","text":""},"sequence_number":3}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"**Fetching","sequence_number":4}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" and","sequence_number":5}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" calculating","sequence_number":6}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" weather","sequence_number":7}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" data","sequence_number":8}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"**\n\nI","sequence_number":9}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" need","sequence_number":10}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" to","sequence_number":11}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" use","sequence_number":12}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" the","sequence_number":13}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" get","sequence_number":14}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"_current","sequence_number":15}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"_weather","sequence_number":16}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" tool","sequence_number":17}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" to","sequence_number":18}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" get","sequence_number":19}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" the","sequence_number":20}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" weather","sequence_number":21}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" info","sequence_number":22}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":",","sequence_number":23}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" and","sequence_number":24}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" I","sequence_number":25}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" might","sequence_number":26}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" also","sequence_number":27}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" need","sequence_number":28}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" to","sequence_number":29}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" compute","sequence_number":30}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" temperature","sequence_number":31}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" differences","sequence_number":32}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" with","sequence_number":33}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" the","sequence_number":34}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" convert","sequence_number":35}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" tool","sequence_number":36}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":".","sequence_number":37}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" I","sequence_number":38}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" think","sequence_number":39}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" I","sequence_number":40}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"’ll","sequence_number":41}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" do","sequence_number":42}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" parallel","sequence_number":43}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" calls","sequence_number":44}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" to","sequence_number":45}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" gather","sequence_number":46}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" weather","sequence_number":47}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" data","sequence_number":48}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" for","sequence_number":49}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" Tokyo","sequence_number":50}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" and","sequence_number":51}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" Paris","sequence_number":52}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" in","sequence_number":53}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" the","sequence_number":54}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" requested","sequence_number":55}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" units","sequence_number":56}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":".","sequence_number":57}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" Initially","sequence_number":58}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":",","sequence_number":59}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" I'll","sequence_number":60}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" fetch","sequence_number":61}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" both","sequence_number":62}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" in","sequence_number":63}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" Celsius","sequence_number":64}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":".","sequence_number":65}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" For","sequence_number":66}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" the","sequence_number":67}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" differences","sequence_number":68}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":",","sequence_number":69}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" I'll","sequence_number":70}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" convert","sequence_number":71}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" Tokyo","sequence_number":72}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"'s","sequence_number":73}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" 72","sequence_number":74}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"°F","sequence_number":75}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" to","sequence_number":76}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" Celsius","sequence_number":77}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" and","sequence_number":78}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" subtract","sequence_number":79}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" Paris","sequence_number":80}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"'s","sequence_number":81}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" 15","sequence_number":82}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"°C","sequence_number":83}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":".","sequence_number":84}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" The","sequence_number":85}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" user","sequence_number":86}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" asked","sequence_number":87}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" for","sequence_number":88}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" a","sequence_number":89}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" step","sequence_number":90}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"-by","sequence_number":91}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"-step","sequence_number":92}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":",","sequence_number":93}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" so","sequence_number":94}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" I","sequence_number":95}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"’ll","sequence_number":96}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" provide","sequence_number":97}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" concise","sequence_number":98}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" steps","sequence_number":99}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" to","sequence_number":100}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":" comply","sequence_number":101}
+
+data: {"type":"response.reasoning_summary_text.delta","item_id":"rs_tmp_crwxlzb7ryr","output_index":0,"summary_index":0,"delta":"!","sequence_number":102}
+
+data: {"type":"response.output_item.added","output_index":1,"item":{"type":"function_call","call_id":"call_f5LLv0IGktvXmZldxkyNV1TY","name":"get_current_weather","arguments":"","id":"call_f5LLv0IGktvXmZldxkyNV1TY","status":"in_progress"},"sequence_number":103}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"{","sequence_number":104}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\"location","sequence_number":105}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\":","sequence_number":106}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\"Tokyo","sequence_number":107}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":",","sequence_number":108}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":" Japan","sequence_number":109}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\",","sequence_number":110}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\"unit","sequence_number":111}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\":","sequence_number":112}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\"c","sequence_number":113}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"elsius","sequence_number":114}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"delta":"\"}","sequence_number":115}
+
+data: {"type":"response.output_item.added","output_index":2,"item":{"type":"function_call","call_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","name":"get_current_weather","arguments":"","id":"call_9jcqjKiRA6SSCUEadXqjGnM9","status":"in_progress"},"sequence_number":116}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"{","sequence_number":117}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\"location","sequence_number":118}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\":","sequence_number":119}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\"Paris","sequence_number":120}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":",","sequence_number":121}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":" France","sequence_number":122}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\",","sequence_number":123}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\"unit","sequence_number":124}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\":","sequence_number":125}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\"c","sequence_number":126}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"elsius","sequence_number":127}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"delta":"\"}","sequence_number":128}
+
+data: {"type":"response.output_item.added","output_index":3,"item":{"type":"function_call","call_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","name":"convert_temperature","arguments":"","id":"call_Qb4QaT0CRQ6wExotl52pTmPU","status":"in_progress"},"sequence_number":129}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"{","sequence_number":130}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\"from","sequence_number":131}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"_unit","sequence_number":132}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\":","sequence_number":133}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\"fahren","sequence_number":134}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"heit","sequence_number":135}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\",","sequence_number":136}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\"to","sequence_number":137}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"_unit","sequence_number":138}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\":","sequence_number":139}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\"c","sequence_number":140}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"elsius","sequence_number":141}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\",","sequence_number":142}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\"value","sequence_number":143}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"\":","sequence_number":144}
+
+data: {"type":"response.function_call_arguments.delta","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"delta":"72}","sequence_number":145}
+
+data: {"type":"response.function_call_arguments.done","item_id":"call_f5LLv0IGktvXmZldxkyNV1TY","output_index":1,"name":"get_current_weather","arguments":"{\"location\":\"Tokyo, Japan\",\"unit\":\"celsius\"}","sequence_number":146}
+
+data: {"type":"response.output_item.done","output_index":1,"item":{"type":"function_call","call_id":"call_f5LLv0IGktvXmZldxkyNV1TY","name":"get_current_weather","arguments":"{\"location\":\"Tokyo, Japan\",\"unit\":\"celsius\"}","status":"completed"},"sequence_number":147}
+
+data: {"type":"response.function_call_arguments.done","item_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","output_index":2,"name":"get_current_weather","arguments":"{\"location\":\"Paris, France\",\"unit\":\"celsius\"}","sequence_number":148}
+
+data: {"type":"response.output_item.done","output_index":2,"item":{"type":"function_call","call_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","name":"get_current_weather","arguments":"{\"location\":\"Paris, France\",\"unit\":\"celsius\"}","status":"completed"},"sequence_number":149}
+
+data: {"type":"response.function_call_arguments.done","item_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","output_index":3,"name":"convert_temperature","arguments":"{\"from_unit\":\"fahrenheit\",\"to_unit\":\"celsius\",\"value\":72}","sequence_number":150}
+
+data: {"type":"response.output_item.done","output_index":3,"item":{"type":"function_call","call_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","name":"convert_temperature","arguments":"{\"from_unit\":\"fahrenheit\",\"to_unit\":\"celsius\",\"value\":72}","status":"completed"},"sequence_number":151}
+
+data: {"type":"response.reasoning_summary_text.done","output_index":0,"item_id":"rs_tmp_crwxlzb7ryr","summary_index":0,"text":"**Fetching and calculating weather data**\n\nI need to use the get_current_weather tool to get the weather info, and I might also need to compute temperature differences with the convert tool. I think I’ll do parallel calls to gather weather data for Tokyo and Paris in the requested units. Initially, I'll fetch both in Celsius. For the differences, I'll convert Tokyo's 72°F to Celsius and subtract Paris's 15°C. The user asked for a step-by-step, so I’ll provide concise steps to comply!","sequence_number":152}
+
+data: {"type":"response.reasoning_summary_part.done","output_index":0,"item_id":"rs_tmp_crwxlzb7ryr","summary_index":0,"part":{"type":"summary_text","text":"**Fetching and calculating weather data**\n\nI need to use the get_current_weather tool to get the weather info, and I might also need to compute temperature differences with the convert tool. I think I’ll do parallel calls to gather weather data for Tokyo and Paris in the requested units. Initially, I'll fetch both in Celsius. For the differences, I'll convert Tokyo's 72°F to Celsius and subtract Paris's 15°C. The user asked for a step-by-step, so I’ll provide concise steps to comply!"},"sequence_number":153}
+
+data: {"type":"response.output_item.done","output_index":0,"item":{"type":"reasoning","id":"rs_tmp_crwxlzb7ryr","summary":[{"type":"summary_text","text":"**Fetching and calculating weather data**\n\nI need to use the get_current_weather tool to get the weather info, and I might also need to compute temperature differences with the convert tool. I think I’ll do parallel calls to gather weather data for Tokyo and Paris in the requested units. Initially, I'll fetch both in Celsius. For the differences, I'll convert Tokyo's 72°F to Celsius and subtract Paris's 15°C. The user asked for a step-by-step, so I’ll provide concise steps to comply!"}],"content":[]},"sequence_number":154}
+
+data: {"type":"response.completed","response":{"object":"response","id":"gen-1769599723-TonbLCOA2FJQZ6QlEP2C","created_at":1769599723,"completed_at":1769599730,"model":"openai/gpt-5.2","status":"completed","output":[{"type":"reasoning","id":"rs_0185ee209dc6e3bc016979f2ec60308196a685107d5e3f758c","summary":[{"type":"summary_text","text":"**Fetching and calculating weather data**\n\nI need to use the get_current_weather tool to get the weather info, and I might also need to compute temperature differences with the convert tool. I think I’ll do parallel calls to gather weather data for Tokyo and Paris in the requested units. Initially, I'll fetch both in Celsius. For the differences, I'll convert Tokyo's 72°F to Celsius and subtract Paris's 15°C. The user asked for a step-by-step, so I’ll provide concise steps to comply!"}],"encrypted_content":"gAAAAABpefLx0r6Sm3_UolsjdsmlHlX4JuVpCDWqm2qAumwBX0UapgROcWKuJ0vtoEVqO09SKbJpfHpX7eBmPeydOyJAQmG6YR0dhD1Zi_XxC5QKf6TPYCGI-kr2wTy5jWaeFHWj6yh_ocAsC4mFtZO29E_Rjy5ybBhKibklPhykYRKcJtlBvuxOpva3ryMr3DIsm3CAxqu9RzmG9GUF2LqookDQ_ZFUQkiA7VAS4GfaEXqEu-XcPpzVvg7-NNBt5tZy6o78ZFZR_OI-SCJ-o8aZmV3-JAilHLF0YEmdMdn-GhTOxHKuUYvGgLYrep1rnfIstjqrd1nyX1bk--hwiF8Nx_hAHZxojl0k6bfDgg3oTuNteIeK3kQi803n6iMnQX0iaCMMoNtMfg-T3RM0RTF1OWzyE0x9XfOet5Y-NPC3lDFti2V0Vd74g9fgVQ1_CB5tjAxJWA_1R9gLX6yhdqvbslf7RNvQ3cp5FBET-jcTr7B_7_lbWtkQEQrksUxGXUaeQ-6E-mSh7iwOTlsWgYMHBYhGFQqdr6ae5KmNeflS40ByTFX5prUWJDzLDrtbgFCCNdJ5JCvn3QnDDzSRfbwadzdkLv1n_GQjuF7r607ISVed_ohhi8KhKXEEyU0vPxym0RfTIBEFH5SZ4efKsiGCffFyh95_pnWbT38dwUbTiA1caQ8BvyJe1cfmhmAvvoGaN9rBjtpXdXavitxIKj9TSQq_JMwg9Kye2rnKoW0oFZUegVA_3j17jr6h2zm8WeCFEfjuG2xC6jl4Jbum6zceUPseNqwscw5iem2kv5ThzxPVRVpVMmWddnpLiCeYvyNZbSbwBXaA9ilUR1B0LVeSUhtHNN3lQVq-5-E26SzL83bN7ZeVecbJI_imLwa6wvx5Quy-fC1ufN0_1Z3XbkPw3va2tevPrWxMAbK3nJvqMfwH7gOvM1VGYpvCcT8lau7RQapgLhOVV3oAlyrL2lFQf9Tnr4LlYFwZEcUTReYnJhBL5efT4NQbiW_jzF7uZxxzVEjcaSR1lcW_jeuq5BC1pkJmPdtWfsBi77r8sLgLZwWtmkXItCUPEVrTyJJ3FYoRf2KigiNAR59yco3kBWFc2RaWitYb34tZnUWlVt81Edn_3_xd01pmXJl28x2VHpZROaPSMEvVw9hb25GGHFQkkSvBZbZmBQaG8Vcx-AazmeOxLEKUt75r0zhhcTFuPqSaAz8lXP9dPEKKzy8J62NDWX20ZblRjfsqyXslilglzpNRfNZB_kFxDMLBNxOPpbxuz6cmpnc76HCWPK8J1x8Bx3SlXteX3HCSkFJD8ghaF9IDgQz0rhS77woNDk4smOnzNP_SRDjt1VqWAM7RenLu4yuhck3ptJdzgfN8IdoDu2DkwMbRwSdohhvcCLpE8o1Wg4YVjrBbP-nfO9PhILevBgN4a1FFhINLuGeFDNlvvT20mLH7gZGF670lA5HTFv3eM_CxK8ehmTUoyQ61dKou8EHmSLs-2tsDyxkCfykoiE9aLYg8b58thF-iGTe76sSqvn0ASwetZqnoGnFTf_rkQsehJI85sCFxP6CUvfdawmZcY-PK8ACK6ZfwY4wNt8eSMQuNCP7vHR8n-oXkr74n6v88ZCgfmZA4h_o3OzirFH_lXiQKPsINeWaPUmie0RllazM2Kocfcv1zZPqK9FtPYXEzDqXdDLbkDOMWNMWtMf0Cv1jygJgb1xEnzajtPCL6rk0xRmBIj7QZLggbG2OU1mI0fKi_x75SfH7xYS--4EZEwHlZuyWE72BR01x9L3Uevi4mM26LXUamEu-VXnBQtsUh19WQRC3jkXdpMUW544378GbjoOc=","format":"openai-responses-v1"},{"type":"function_call","call_id":"call_f5LLv0IGktvXmZldxkyNV1TY","name":"get_current_weather","arguments":"{\"location\":\"Tokyo, Japan\",\"unit\":\"celsius\"}","status":"completed"},{"type":"function_call","call_id":"call_9jcqjKiRA6SSCUEadXqjGnM9","name":"get_current_weather","arguments":"{\"location\":\"Paris, France\",\"unit\":\"celsius\"}","status":"completed"},{"type":"function_call","call_id":"call_Qb4QaT0CRQ6wExotl52pTmPU","name":"convert_temperature","arguments":"{\"from_unit\":\"fahrenheit\",\"to_unit\":\"celsius\",\"value\":72}","status":"completed"}],"output_text":"","error":null,"incomplete_details":null,"usage":{"input_tokens":71,"input_tokens_details":{"cached_tokens":0},"output_tokens":243,"output_tokens_details":{"reasoning_tokens":152},"total_tokens":314,"cost":0.00352625,"is_byok":false,"cost_details":{"upstream_inference_cost":0.00352625,"upstream_inference_input_cost":0.00012425,"upstream_inference_output_cost":0.003402}},"tools":[{"type":"function","name":"get_current_weather","description":"Get the current weather in a given location","parameters":{"properties":{"location":{"description":"The city and country, e.g. Tokyo, Japan","type":"string"},"unit":{"description":"The unit of temperature","enum":["celsius","fahrenheit"],"type":"string"}},"required":["location"],"type":"object"},"strict":null},{"type":"function","name":"convert_temperature","description":"Convert temperature between celsius and fahrenheit","parameters":{"properties":{"from_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"to_unit":{"enum":["celsius","fahrenheit"],"type":"string"},"value":{"description":"The temperature value to convert","type":"number"}},"required":["value","from_unit","to_unit"],"type":"object"},"strict":null},{"type":"function","name":"calculate","description":"Perform a mathematical calculation","parameters":{"properties":{"expression":{"description":"The mathematical expression to evaluate","type":"string"}},"required":["expression"],"type":"object"},"strict":null}],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":3000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":{"effort":"medium","summary":"detailed","enabled":true},"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":155}
+
+data: [DONE]
+

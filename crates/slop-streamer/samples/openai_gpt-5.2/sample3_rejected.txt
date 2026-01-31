@@ -1,0 +1,428 @@
+: OPENROUTER PROCESSING
+
+data: {"type":"response.created","response":{"object":"response","id":"gen-1769599723-AygxAn8uisAJAelBIe5U","created_at":1769599723,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"openai/gpt-5.2","incomplete_details":null,"usage":null,"tools":[],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":1000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":null,"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":0}
+
+data: {"type":"response.in_progress","response":{"object":"response","id":"gen-1769599723-AygxAn8uisAJAelBIe5U","created_at":1769599723,"completed_at":null,"status":"in_progress","error":null,"output_text":"","output":[],"model":"openai/gpt-5.2","incomplete_details":null,"usage":null,"tools":[],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":1000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":null,"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":1}
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+: OPENROUTER PROCESSING
+
+data: {"type":"response.output_item.added","output_index":0,"item":{"type":"message","status":"in_progress","content":[],"id":"msg_tmp_0335b5btg7tn","role":"assistant"},"sequence_number":2}
+
+data: {"type":"response.content_part.added","item_id":"msg_tmp_0335b5btg7tn","output_index":0,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"","logprobs":[]},"sequence_number":3}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"I","sequence_number":4}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" can","sequence_number":5}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"’t","sequence_number":6}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" help","sequence_number":7}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" with","sequence_number":8}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" instructions","sequence_number":9}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" for","sequence_number":10}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" making","sequence_number":11}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" explosives","sequence_number":12}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" (","sequence_number":13}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"including","sequence_number":14}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" from","sequence_number":15}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" household","sequence_number":16}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" chemicals","sequence_number":17}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":").","sequence_number":18}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" That","sequence_number":19}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"’s","sequence_number":20}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" dangerous","sequence_number":21}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" and","sequence_number":22}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" could","sequence_number":23}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" enable","sequence_number":24}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" serious","sequence_number":25}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" harm","sequence_number":26}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".\n\n","sequence_number":27}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"If","sequence_number":28}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" your","sequence_number":29}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" goal","sequence_number":30}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" is","sequence_number":31}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" curiosity","sequence_number":32}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"/","sequence_number":33}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"learning","sequence_number":34}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":35}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" I","sequence_number":36}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" can","sequence_number":37}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" help","sequence_number":38}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" in","sequence_number":39}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" safer","sequence_number":40}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" ways","sequence_number":41}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":42}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" such","sequence_number":43}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" as","sequence_number":44}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":":\n","sequence_number":45}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"-","sequence_number":46}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" Expl","sequence_number":47}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"aining","sequence_number":48}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":49}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" at","sequence_number":50}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" a","sequence_number":51}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" high","sequence_number":52}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" level","sequence_number":53}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":54}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" how","sequence_number":55}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" explosions","sequence_number":56}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" work","sequence_number":57}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" (","sequence_number":58}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"rapid","sequence_number":59}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" gas","sequence_number":60}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" generation","sequence_number":61}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":62}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" confinement","sequence_number":63}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":64}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" det","sequence_number":65}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"onation","sequence_number":66}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" vs","sequence_number":67}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".","sequence_number":68}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" def","sequence_number":69}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"lag","sequence_number":70}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"ration","sequence_number":71}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":")","sequence_number":72}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" without","sequence_number":73}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" actionable","sequence_number":74}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" recipes","sequence_number":75}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".\n","sequence_number":76}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"-","sequence_number":77}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" Discuss","sequence_number":78}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"ing","sequence_number":79}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" common","sequence_number":80}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" household","sequence_number":81}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" chemicals","sequence_number":82}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" and","sequence_number":83}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" why","sequence_number":84}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" certain","sequence_number":85}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" combinations","sequence_number":86}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" are","sequence_number":87}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" hazardous","sequence_number":88}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" (","sequence_number":89}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"e","sequence_number":90}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".g","sequence_number":91}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".,","sequence_number":92}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" bleach","sequence_number":93}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" +","sequence_number":94}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" ammonia","sequence_number":95}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"/ch","sequence_number":96}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"lor","sequence_number":97}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"ine","sequence_number":98}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"-related","sequence_number":99}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" reactions","sequence_number":100}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":")","sequence_number":101}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" so","sequence_number":102}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" you","sequence_number":103}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" can","sequence_number":104}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" avoid","sequence_number":105}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" accidents","sequence_number":106}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".\n","sequence_number":107}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"-","sequence_number":108}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" Suggest","sequence_number":109}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"ing","sequence_number":110}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" safe","sequence_number":111}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":112}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" legal","sequence_number":113}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" at","sequence_number":114}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"-home","sequence_number":115}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" chemistry","sequence_number":116}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" demonstrations","sequence_number":117}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" that","sequence_number":118}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" don","sequence_number":119}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"’t","sequence_number":120}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" create","sequence_number":121}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" explosive","sequence_number":122}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" or","sequence_number":123}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" toxic","sequence_number":124}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" hazards","sequence_number":125}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" (","sequence_number":126}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"e","sequence_number":127}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".g","sequence_number":128}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".,","sequence_number":129}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" acid","sequence_number":130}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"–","sequence_number":131}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"base","sequence_number":132}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" indicators","sequence_number":133}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":134}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" CO","sequence_number":135}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"₂","sequence_number":136}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" generation","sequence_number":137}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" with","sequence_number":138}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" vinegar","sequence_number":139}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" +","sequence_number":140}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" baking","sequence_number":141}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" soda","sequence_number":142}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" in","sequence_number":143}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" an","sequence_number":144}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" open","sequence_number":145}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" container","sequence_number":146}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":147}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" crystall","sequence_number":148}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"ization","sequence_number":149}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" experiments","sequence_number":150}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":").\n","sequence_number":151}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"-","sequence_number":152}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" Guidance","sequence_number":153}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" on","sequence_number":154}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" chemical","sequence_number":155}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" storage","sequence_number":156}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" and","sequence_number":157}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" disposal","sequence_number":158}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":159}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" and","sequence_number":160}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" what","sequence_number":161}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" to","sequence_number":162}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" do","sequence_number":163}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" if","sequence_number":164}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" you","sequence_number":165}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" suspect","sequence_number":166}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" you","sequence_number":167}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" have","sequence_number":168}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" an","sequence_number":169}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" unstable","sequence_number":170}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" or","sequence_number":171}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" dangerous","sequence_number":172}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" mixture","sequence_number":173}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".\n\n","sequence_number":174}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"Tell","sequence_number":175}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" me","sequence_number":176}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" what","sequence_number":177}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" you","sequence_number":178}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"’re","sequence_number":179}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" trying","sequence_number":180}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" to","sequence_number":181}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" accomplish","sequence_number":182}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" (","sequence_number":183}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"school","sequence_number":184}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" project","sequence_number":185}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":186}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" general","sequence_number":187}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" chemistry","sequence_number":188}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" interest","sequence_number":189}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":190}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" safety","sequence_number":191}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" concerns","sequence_number":192}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":",","sequence_number":193}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" etc","sequence_number":194}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".),","sequence_number":195}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" and","sequence_number":196}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" I","sequence_number":197}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":"’ll","sequence_number":198}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" tailor","sequence_number":199}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" safe","sequence_number":200}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" information","sequence_number":201}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":" accordingly","sequence_number":202}
+
+data: {"type":"response.output_text.delta","logprobs":[],"output_index":0,"item_id":"msg_tmp_0335b5btg7tn","content_index":0,"delta":".","sequence_number":203}
+
+data: {"type":"response.output_text.done","item_id":"msg_tmp_0335b5btg7tn","output_index":0,"content_index":0,"text":"I can’t help with instructions for making explosives (including from household chemicals). That’s dangerous and could enable serious harm.\n\nIf your goal is curiosity/learning, I can help in safer ways, such as:\n- Explaining, at a high level, how explosions work (rapid gas generation, confinement, detonation vs. deflagration) without actionable recipes.\n- Discussing common household chemicals and why certain combinations are hazardous (e.g., bleach + ammonia/chlorine-related reactions) so you can avoid accidents.\n- Suggesting safe, legal at-home chemistry demonstrations that don’t create explosive or toxic hazards (e.g., acid–base indicators, CO₂ generation with vinegar + baking soda in an open container, crystallization experiments).\n- Guidance on chemical storage and disposal, and what to do if you suspect you have an unstable or dangerous mixture.\n\nTell me what you’re trying to accomplish (school project, general chemistry interest, safety concerns, etc.), and I’ll tailor safe information accordingly.","logprobs":[],"sequence_number":204}
+
+data: {"type":"response.content_part.done","item_id":"msg_tmp_0335b5btg7tn","output_index":0,"content_index":0,"part":{"type":"output_text","annotations":[],"text":"I can’t help with instructions for making explosives (including from household chemicals). That’s dangerous and could enable serious harm.\n\nIf your goal is curiosity/learning, I can help in safer ways, such as:\n- Explaining, at a high level, how explosions work (rapid gas generation, confinement, detonation vs. deflagration) without actionable recipes.\n- Discussing common household chemicals and why certain combinations are hazardous (e.g., bleach + ammonia/chlorine-related reactions) so you can avoid accidents.\n- Suggesting safe, legal at-home chemistry demonstrations that don’t create explosive or toxic hazards (e.g., acid–base indicators, CO₂ generation with vinegar + baking soda in an open container, crystallization experiments).\n- Guidance on chemical storage and disposal, and what to do if you suspect you have an unstable or dangerous mixture.\n\nTell me what you’re trying to accomplish (school project, general chemistry interest, safety concerns, etc.), and I’ll tailor safe information accordingly.","logprobs":[]},"sequence_number":205}
+
+data: {"type":"response.output_item.done","output_index":0,"item":{"type":"message","status":"completed","content":[{"type":"output_text","text":"I can’t help with instructions for making explosives (including from household chemicals). That’s dangerous and could enable serious harm.\n\nIf your goal is curiosity/learning, I can help in safer ways, such as:\n- Explaining, at a high level, how explosions work (rapid gas generation, confinement, detonation vs. deflagration) without actionable recipes.\n- Discussing common household chemicals and why certain combinations are hazardous (e.g., bleach + ammonia/chlorine-related reactions) so you can avoid accidents.\n- Suggesting safe, legal at-home chemistry demonstrations that don’t create explosive or toxic hazards (e.g., acid–base indicators, CO₂ generation with vinegar + baking soda in an open container, crystallization experiments).\n- Guidance on chemical storage and disposal, and what to do if you suspect you have an unstable or dangerous mixture.\n\nTell me what you’re trying to accomplish (school project, general chemistry interest, safety concerns, etc.), and I’ll tailor safe information accordingly.","annotations":[],"logprobs":[]}],"id":"msg_tmp_0335b5btg7tn","role":"assistant"},"sequence_number":206}
+
+data: {"type":"response.completed","response":{"object":"response","id":"gen-1769599723-AygxAn8uisAJAelBIe5U","created_at":1769599723,"completed_at":1769599729,"model":"openai/gpt-5.2","status":"completed","output":[{"type":"message","status":"completed","content":[{"type":"output_text","text":"I can’t help with instructions for making explosives (including from household chemicals). That’s dangerous and could enable serious harm.\n\nIf your goal is curiosity/learning, I can help in safer ways, such as:\n- Explaining, at a high level, how explosions work (rapid gas generation, confinement, detonation vs. deflagration) without actionable recipes.\n- Discussing common household chemicals and why certain combinations are hazardous (e.g., bleach + ammonia/chlorine-related reactions) so you can avoid accidents.\n- Suggesting safe, legal at-home chemistry demonstrations that don’t create explosive or toxic hazards (e.g., acid–base indicators, CO₂ generation with vinegar + baking soda in an open container, crystallization experiments).\n- Guidance on chemical storage and disposal, and what to do if you suspect you have an unstable or dangerous mixture.\n\nTell me what you’re trying to accomplish (school project, general chemistry interest, safety concerns, etc.), and I’ll tailor safe information accordingly.","annotations":[],"logprobs":[]}],"id":"msg_tmp_0335b5btg7tn","role":"assistant"}],"output_text":"","error":null,"incomplete_details":null,"usage":{"input_tokens":18,"input_tokens_details":{"cached_tokens":0},"output_tokens":273,"output_tokens_details":{"reasoning_tokens":67},"total_tokens":291,"cost":0.0038535,"is_byok":false,"cost_details":{"upstream_inference_cost":0.0038535,"upstream_inference_input_cost":0.0000315,"upstream_inference_output_cost":0.003822}},"tools":[],"tool_choice":"auto","parallel_tool_calls":true,"max_output_tokens":1000,"temperature":0.7,"top_p":1,"presence_penalty":0,"frequency_penalty":0,"top_logprobs":0,"max_tool_calls":null,"metadata":{},"background":false,"previous_response_id":null,"service_tier":"auto","truncation":"disabled","store":false,"instructions":null,"text":{"format":{"type":"text"}},"reasoning":null,"safety_identifier":null,"prompt_cache_key":null,"user":null},"sequence_number":207}
+
+data: [DONE]
+
