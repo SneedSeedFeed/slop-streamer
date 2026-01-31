@@ -571,6 +571,7 @@ dependencies = [
  "schemars",
  "serde",
  "serde_json",
+ "slop-streamer-proc-macros",
  "sseer",
  "tokio",
  "url",
@@ -579,6 +580,11 @@ dependencies = [
 [[package]]
 name = "slop-streamer-proc-macros"
 version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
 
 [[package]]
 name = "smallvec"

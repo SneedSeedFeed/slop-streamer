@@ -1,3 +1,4 @@
 [workspace]
 members = ["crates/slop-streamer", "crates/slop-streamer-proc-macros"]
 package.license = "MIT OR Apache-2.0"
+resolver = "3"

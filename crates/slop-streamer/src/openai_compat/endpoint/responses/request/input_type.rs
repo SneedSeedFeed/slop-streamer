@@ -4,13 +4,8 @@
 
 use std::borrow::Cow;
 
-use serde::{
-    Deserialize, Serialize, Serializer,
-    ser::{SerializeMap, SerializeSeq},
-};
-
-use crate::define_contract;
-
+use serde::{Deserialize, Serialize, Serializer, ser::SerializeSeq};
+use slop_streamer_proc_macros::contract_trait;
 mod private {
     pub trait Sealed {}
 }
@@ -110,11 +105,12 @@ pub enum Role {
     Developer,
 }
 
-// Note: Doesn't cover images
-define_contract!(
-    pub trait InputMessage: InputItem + AsInputItem => Message {
+contract_trait!(
+    #[impl_traits(InputItem, AsInputItem)]
+    #[wrapper(Message)]
+    pub trait InputMessage {
         content: Cow<'_, str>,
-        role: Role
+        role: Role,
     }
 );
 
@@ -162,17 +158,31 @@ pub enum Status {
     Incomplete,
 }
 
-define_contract!(
-    pub trait InputFunctionCall: InputItem + AsInputItem => FunctionCall {
-        [arguments: Cow<'_, str>, call_id: Cow<'_, str>, name: Cow<'_, str>, id: Option<Cow<'_, str>> = None, status: Option<Status> = None]
-        const ["type": "function_call"]
+contract_trait!(
+    #[impl_traits(InputItem, AsInputItem)]
+    #[wrapper(FunctionCall)]
+    pub trait InputFunctioncall {
+        arguments: Cow<'_, str>,
+        call_id: Cow<'_, str>,
+        name: Cow<'_, str>,
+        #[skip_serializing_if(Option::is_none)]
+        id: Option<Cow<'_, str>> = None,
+        #[skip_serializing_if(Option::is_none)]
+        status: Option<Status> = None,
     }
 );
 
-define_contract!(
-    pub trait InputFunctionCallOutput: InputItem + AsInputItem => FunctionCallOutput {
-        [call_id: Cow<'_, str>, output: Cow<'_, str>, id: Option<Cow<'_, str>> = None, status: Option<Status> = None]
-        const ["type": "function_call_output"]
+contract_trait!(
+    #[impl_traits(InputItem, AsInputItem)]
+    #[wrapper(FunctionCallOutput)]
+    pub trait InputFunctionCallOutput {
+        call_id: Cow<'_, str>,
+        output: Cow<'_, str>,
+        #[skip_serializing_if(Option::is_none)]
+        id: Option<Cow<'_, str>> = None,
+        #[skip_serializing_if(Option::is_none)]
+        status: Option<Status> = None,
+        const "type" = "function_call_output",
     }
 );
 
